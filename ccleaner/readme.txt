@@ -1,0 +1,1 @@
+file store in C:\Program Files\CCleaner
