@@ -1,0 +1,5 @@
+[
+	{ "keys": ["super+shift+s"], "command": "save_all" },
+	{ "keys": ["super+d"], "command": "duplicate_line" },
+	{ "keys": ["super+shift+d"], "command": "delete_line" },
+]
