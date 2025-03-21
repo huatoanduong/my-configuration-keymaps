@@ -1,5 +1,7 @@
 [
 	{ "keys": ["ctrl+shift+s"], "command": "save_all" },
 	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
-	{ "keys": ["ctrl+shift+d"],  "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} }
+	{ "keys": ["ctrl+shift+d"],  "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },	
+	{ "keys": ["ctrl+shift+u"], "command": "upper_case" },
+	{ "keys": ["ctrl+shift+l"], "command": "lower_case" }
 ]
