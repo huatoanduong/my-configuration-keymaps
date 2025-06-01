@@ -7,21 +7,21 @@
   "editor.multiCursorModifier": "alt",
   "files.encoding": "utf8",
   "files.exclude": {
-      "**/*.js.map": {
-          "when": "$(basename)"
-      },
-      "**/*.js": {
-          "when": "$(basename).ts"
-      },
-      "**/**.js": {
-          "when": "$(basename).tsx"
-      },
-      "**/*.css.map": {
-          "when": "$(basename)"
-      },
-      "**/*.css": {
-          "when": "$(basename).scss"
-      }
+    "**/*.js.map": {
+      "when": "$(basename)"
+    },
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/**.js": {
+      "when": "$(basename).tsx"
+    },
+    "**/*.css.map": {
+      "when": "$(basename)"
+    },
+    "**/*.css": {
+      "when": "$(basename).scss"
+    }
   },
   "git.enableSmartCommit": true,
   "javascript.referencesCodeLens.enabled": true,
@@ -31,23 +31,23 @@
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "[typescriptreact]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[typescript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[vue]": {
-      "editor.defaultFormatter": "octref.vetur"
+    "editor.defaultFormatter": "octref.vetur"
   },
   "editor.detectIndentation": false,
   "svn.enableProposedApi": "product",
@@ -55,11 +55,11 @@
   "git.autofetchPeriod": 600,
   "remote.SSH.showLoginTerminal": true,
   "remote.SSH.remotePlatform": {
-      "ec2-18-204-8-213.compute-1.amazonaws.com": "linux",
-      "ec2-52-91-167-218.compute-1.amazonaws.com": "linux",
-      "ec2-100-25-167-179.compute-1.amazonaws.com": "linux",
-      "aws-ubuntu-student": "linux",
-      "digitech-vn": "linux"
+    "ec2-18-204-8-213.compute-1.amazonaws.com": "linux",
+    "ec2-52-91-167-218.compute-1.amazonaws.com": "linux",
+    "ec2-100-25-167-179.compute-1.amazonaws.com": "linux",
+    "aws-ubuntu-student": "linux",
+    "digitech-vn": "linux"
   },
   "remote.WSL.fileWatcher.polling": true,
   "vsicons.dontShowNewVersionMessage": true,
@@ -78,7 +78,7 @@
   "git.confirmNoVerifyCommit": false,
   "git.pullTags": false,
   "[javascriptreact]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "powershell.integratedConsole.suppressStartupBanner": true,
   "gitlens.views.repositories.showIncomingActivity": true,
@@ -88,7 +88,7 @@
   "git.openDiffOnClick": false,
   "powershell.integratedConsole.showOnStartup": false,
   "[less]": {
-      "editor.defaultFormatter": "michelemelluso.code-beautifier"
+    "editor.defaultFormatter": "michelemelluso.code-beautifier"
   },
   "typescript.tsserver.log": "off",
   "gitlens.views.branches.branches.layout": "list",
@@ -102,11 +102,11 @@
   "git.allowNoVerifyCommit": true,
   "git.confirmSync": false,
   "beautify.options": {
-      "space_after_anon_function": false
+    "space_after_anon_function": false
   },
   "[javascript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features",
-      "editor.autoClosingBrackets": "never"
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.autoClosingBrackets": "never"
   },
   "workbench.startupEditor": "none",
   "git.allowForcePush": true,
@@ -116,7 +116,8 @@
   "go.toolsManagement.autoUpdate": true,
   "files.associations": {
     "*.jsx": "javascriptreact",
-    "*.mdx": "markdown"
+    "*.mdx": "markdown",
+    "*.ps1": "powershell"
   },
   "git.confirmEmptyCommits": false,
   "explorer.confirmDragAndDrop": false,
@@ -128,7 +129,8 @@
   },
   "redhat.telemetry.enabled": false,
   "[python]": {
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.autopep8"
   },
   "git.openRepositoryInParentFolders": "always",
   "[css]": {
@@ -218,10 +220,30 @@
     // "terminal.selectionBackground" : "#783d26"
   },
   "terminal.integrated.mouseWheelZoom": true,
-  "terminal.integrated.fontSize": 13,
-  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "scm.providerCountBadge": "auto",
   "scm.alwaysShowActions": true,
   "scm.alwaysShowRepositories": true,
-  "scm.defaultViewMode": "tree"
+  "scm.defaultViewMode": "tree",
+  "editor.accessibilitySupport": "off",
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": false,
+    "remotes": true,
+    "stashes": false,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": false,
+    "searchAndCompare": false,
+    "launchpad": false
+  },
+  "mssql.objectExplorer.groupBySchema": true,
+  "mssql.autoDisableNonTSqlLanguageService": true,
+  "python.defaultInterpreterPath": "",
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
+  },
+  "debug.toolBarLocation": "commandCenter"
 }
