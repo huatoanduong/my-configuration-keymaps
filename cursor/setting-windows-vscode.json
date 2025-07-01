@@ -1,0 +1,285 @@
+{
+  "explorer.confirmDelete": false,
+  "editor.autoClosingBrackets": "never",
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.autoClosingQuotes": "never",
+  "editor.multiCursorModifier": "alt",
+  "files.encoding": "utf8",
+  "files.exclude": {
+    "**/*.js.map": {
+      "when": "$(basename)"
+    },
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/**.js": {
+      "when": "$(basename).tsx"
+    },
+    "**/*.css.map": {
+      "when": "$(basename)"
+    },
+    "**/*.css": {
+      "when": "$(basename).scss"
+    }
+  },
+  "git.enableSmartCommit": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "editor.detectIndentation": false,
+  "svn.enableProposedApi": "product",
+  "git.autofetch": true,
+  "git.autofetchPeriod": 600,
+  "remote.SSH.showLoginTerminal": true,
+  "remote.SSH.remotePlatform": {
+    "ec2-18-204-8-213.compute-1.amazonaws.com": "linux",
+    "ec2-52-91-167-218.compute-1.amazonaws.com": "linux",
+    "ec2-100-25-167-179.compute-1.amazonaws.com": "linux",
+    "aws-ubuntu-student": "linux",
+    "digitech-vn": "linux"
+  },
+  "remote.WSL.fileWatcher.polling": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "typescript.preferences.quoteStyle": "double",
+  "javascript.preferences.quoteStyle": "single",
+  "editor.tabSize": 2,
+  "terminal.integrated.scrollback": 100000000,
+  "angular.experimental-ivy": true,
+  "workbench.iconTheme": "vscode-icons",
+  "azureFunctions.showProjectWarning": false,
+  "html.format.wrapAttributes": "preserve-aligned",
+  "html.format.endWithNewline": true,
+  "html.format.wrapLineLength": 0,
+  "prettier.printWidth": 250,
+  "git.confirmNoVerifyCommit": false,
+  "git.pullTags": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "powershell.integratedConsole.suppressStartupBanner": true,
+  "gitlens.views.repositories.showIncomingActivity": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "angular.view-engine": true,
+  "window.restoreFullscreen": true,
+  "git.openDiffOnClick": false,
+  "powershell.integratedConsole.showOnStartup": false,
+  "[less]": {
+    "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  },
+  "typescript.tsserver.log": "off",
+  "gitlens.views.branches.branches.layout": "list",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "git.useCommitInputAsStashMessage": true,
+  "git.useEditorAsCommitInput": false,
+  "search.showLineNumbers": true,
+  "gitlens.advanced.repositorySearchDepth": 5,
+  "git.allowNoVerifyCommit": true,
+  "git.confirmSync": false,
+  "beautify.options": {
+    "space_after_anon_function": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.autoClosingBrackets": "never"
+  },
+  "workbench.startupEditor": "none",
+  "git.allowForcePush": true,
+  "git.confirmForcePush": false,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "go.toolsManagement.autoUpdate": true,
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.mdx": "markdown",
+    "*.ps1": "powershell"
+  },
+  "git.confirmEmptyCommits": false,
+  "explorer.confirmDragAndDrop": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": false,
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "minify.html": {
+    "caseSensitive": false,
+    "collapseBooleanAttributes": true,
+    "collapseInlineTagWhitespace": false,
+    "collapseWhitespace": true,
+    "conservativeCollapse": false,
+    "customAttrAssign": [],
+    "customAttrCollapse": "",
+    "customAttrSurround": [],
+    "customEventAttributes": [
+      "^on[a-z]{3,}$"
+    ],
+    "decodeEntities": false,
+    "html5": true,
+    "ignoreCustomComments": [
+      "^!"
+    ],
+    "ignoreCustomFragments": [
+      "<%[\\s\\S]*?%>",
+      "<\\?[\\s\\S]*?\\?>"
+    ],
+    "includeAutoGeneratedTags": true,
+    "keepClosingSlash": false,
+    "maxLineLength": false,
+    "minifyCSS": true,
+    "minifyJS": true,
+    "minifyURLs": false,
+    "preserveLineBreaks": false,
+    "preventAttributesEscaping": false,
+    "processConditionalComments": false,
+    "processScripts": [],
+    "quoteCharacter": "'",
+    "removeAttributeQuotes": false,
+    "removeComments": false,
+    "removeEmptyAttributes": false,
+    "removeEmptyElements": false,
+    "removeOptionalTags": false,
+    "removeRedundantAttributes": false,
+    "removeScriptTypeAttributes": false,
+    "removeStyleLinkTypeAttributes": false,
+    "sortAttributes": false,
+    "sortClassName": false,
+    "trimCustomFragments": false,
+    "useShortDoctype": false
+  },
+  "go.useLanguageServer": false,
+  "go.languageServerExperimentalFeatures": {
+    "diagnostics": false
+  },
+  "go.buildOnSave": "off",
+  "editor.mouseWheelZoom": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path.windows": "C:\\Users\\huato\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+    "vscode-kubernetes.minikube-path.windows": "C:\\Users\\huato\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+    "vscode-kubernetes.kubectl-path.windows": "C:\\Users\\huato\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
+    "vscode-kubernetes.kubectl-path.mac": "/Users/toan.duong/.vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path.mac": "/Users/toan.duong/.vs-kubernetes/tools/minikube/darwin-arm64/minikube",
+    "vscode-kubernetes.helm-path.mac": "/Users/toan.duong/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+    "vscode-kubernetes.helm-path-windows": "C:\\Users\\huato\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+    "vscode-kubernetes.kubectl-path-windows": "C:\\Users\\huato\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
+    "vscode-kubernetes.minikube-path-windows": "C:\\Users\\huato\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "Sophisticode.php-formatter"
+  },
+  "hediet.vscode-drawio.resizeImages": null,
+  "nxConsole.showNodeVersionOnStartup": false,
+  "git.postCommitCommand": "sync",
+  "gitlens.advanced.messages": {
+    "suppressCreatePullRequestPrompt": true
+  },
+  "workbench.colorCustomizations": {},
+  "terminal.integrated.mouseWheelZoom": true,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "scm.providerCountBadge": "auto",
+  "scm.alwaysShowActions": true,
+  "scm.alwaysShowRepositories": true,
+  "scm.defaultViewMode": "tree",
+  "editor.accessibilitySupport": "off",
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": false,
+    "remotes": true,
+    "stashes": false,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": false,
+    "searchAndCompare": false,
+    "launchpad": false
+  },
+  "mssql.objectExplorer.groupBySchema": true,
+  "mssql.connections": [
+    {
+      "connectionString": "Data Source=localhost;Initial Catalog=kassom;User Id=sa;Password=123456; Encrypt=true; Trust Server Certificate=true;",
+      "profileName": "kassom-localhost",
+      "encrypt": "Mandatory",
+      "trustServerCertificate": true,
+      "password": ""
+    },
+    {
+      "connectionString": "Microsoft.SqlTools|itemtype:Profile|server:localhost|user:sa|isConnectionString:true",
+      "profileName": "localhost",
+      "encrypt": "Mandatory",
+      "trustServerCertificate": true,
+      "server": "localhost",
+      "database": "",
+      "user": "sa",
+      "password": "",
+      "connectTimeout": 15,
+      "commandTimeout": 30,
+      "applicationName": "vscode-mssql",
+      "authenticationType": "SqlLogin",
+      "savePassword": true
+    },
+    {
+      "connectionString": "Microsoft.SqlTools|itemtype:Profile|server:tcp:kassom-prod.database.windows.net,1433|db:kassom-prod-db|user:kassomprodadmin|isConnectionString:true",
+      "profileName": "kassom-prod",
+      "database": "kassom-prod-db",
+      "user": "kassomprodadmin",
+      "server": "tcp:kassom-prod.database.windows.net,1433",
+      "authenticationType": "SqlLogin",
+      "savePassword": true,
+      "password": ""
+    }
+  ],
+  "mssql.autoDisableNonTSqlLanguageService": true,
+  "python.defaultInterpreterPath": "",
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
+  },
+  "cursor.cpp.disabledLanguages": [
+    "plaintext",
+    "markdown",
+    "scminput"
+  ],
+  "workbench.colorTheme": "Monokai",
+  "debug.toolBarLocation": "commandCenter",
+  "window.commandCenter": true
+}
