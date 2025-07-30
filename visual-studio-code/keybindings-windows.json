@@ -1,94 +1,94 @@
 // Place your key bindings in this file to overwrite the defaults
 [
   {
-      "key": "ctrl+q",
-      "command": "workbench.action.keepEditor"
+    "key": "ctrl+q",
+    "command": "workbench.action.keepEditor"
   },
   {
-      "key": "ctrl+k enter",
-      "command": "-workbench.action.keepEditor"
+    "key": "ctrl+k enter",
+    "command": "-workbench.action.keepEditor"
   },
   {
-      "key": "ctrl+e ctrl+f",
-      "command": "editor.action.formatDocument",
-      "when": "editorTextFocus && !editorReadonly"
+    "key": "ctrl+e ctrl+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
   },
   {
-      "key": "shift+alt+f",
-      "command": "-editor.action.formatDocument",
-      "when": "editorTextFocus && !editorReadonly"
+    "key": "shift+alt+f",
+    "command": "-editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
   },
   {
-      "key": "ctrl+shift+s",
-      "command": "workbench.action.files.saveAll"
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.files.saveAll"
   },
   {
-      "key": "ctrl+k s",
-      "command": "-workbench.action.files.saveAll"
+    "key": "ctrl+k s",
+    "command": "-workbench.action.files.saveAll"
   },
   {
-      "key": "ctrl+k ctrl+s",
-      "command": "workbench.action.files.saveAs"
+    "key": "ctrl+k ctrl+s",
+    "command": "workbench.action.files.saveAs"
   },
   {
-      "key": "ctrl+shift+s",
-      "command": "-workbench.action.files.saveAs"
+    "key": "ctrl+shift+s",
+    "command": "-workbench.action.files.saveAs"
   },
   {
-      "key": "ctrl+d",
-      "command": "editor.action.copyLinesDownAction",
-      "when": "editorTextFocus && !editorReadonly"
+    "key": "ctrl+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
   },
   {
-      "key": "shift+alt+down",
-      "command": "-editor.action.copyLinesDownAction",
-      "when": "editorTextFocus && !editorReadonly"
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
   },
   {
-      "key": "ctrl+shift+l",
-      "command": "editor.action.transformToLowercase"
+    "key": "ctrl+shift+l",
+    "command": "editor.action.transformToLowercase"
   },
   {
-      "key": "ctrl+shift+u",
-      "command": "editor.action.transformToUppercase"
+    "key": "ctrl+shift+u",
+    "command": "editor.action.transformToUppercase"
   },
   {
-      "key": "alt+enter",
-      "command": "editor.action.quickFix",
-      "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    "key": "alt+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
   },
   {
-      "key": "ctrl+.",
-      "command": "-editor.action.quickFix",
-      "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    "key": "ctrl+.",
+    "command": "-editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
   },
   {
-      "key": "ctrl+shift+b",
-      "command": "workbench.action.tasks.runTask"
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.tasks.runTask"
   },
   {
-      "key": "ctrl+shift+b",
-      "command": "-workbench.action.tasks.build"
+    "key": "ctrl+shift+b",
+    "command": "-workbench.action.tasks.build"
   },
   {
-      "key": "ctrl+m ctrl+m",
-      "command": "editor.fold",
-      "when": "editorTextFocus"
+    "key": "ctrl+m ctrl+m",
+    "command": "editor.fold",
+    "when": "editorTextFocus"
   },
   {
-      "key": "ctrl+l ctrl+l",
-      "command": "editor.unfold",
-      "when": "editorTextFocus"
+    "key": "ctrl+l ctrl+l",
+    "command": "editor.unfold",
+    "when": "editorTextFocus"
   },
   {
-      "key": "ctrl+m ctrl+o",
-      "command": "editor.foldAll",
-      "when": "editorTextFocus"
+    "key": "ctrl+m ctrl+o",
+    "command": "editor.foldAll",
+    "when": "editorTextFocus"
   },
   {
-      "key": "ctrl+m ctrl+l",
-      "command": "editor.unfoldAll",
-      "when": "editorTextFocus"
+    "key": "ctrl+m ctrl+l",
+    "command": "editor.unfoldAll",
+    "when": "editorTextFocus"
   },
   {
     "key": "ctrl+t",
