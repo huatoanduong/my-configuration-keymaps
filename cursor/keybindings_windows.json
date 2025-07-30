@@ -174,16 +174,6 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+m ctrl+u",
-    "command": "-editor.action.removeCommentLine",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+shift+\\",
-    "command": "-workbench.action.terminal.focusTabs",
-    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported || terminalHasBeenCreated && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
-  },
-  {
     "key": "ctrl+shift+\\",
     "command": "-editor.action.jumpToBracket",
     "when": "editorTextFocus"
@@ -191,6 +181,6 @@
   {
     "key": "ctrl+shift+\\",
     "command": "terminal.focus",
-    "when": "!terminalFocus && terminalHasBeenCreated || !terminalFocus && terminalProcessSupported"
+    "when": "!terminalFocus && terminalProcessSupported || terminalHasBeenCreated && terminalTabsFocus || terminalHasBeenCreated && !terminalFocus || terminalProcessSupported && terminalTabsFocus"
   }
 ]
