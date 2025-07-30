@@ -157,5 +157,5 @@
     "key": "ctrl+shift+d",
     "command": "editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
-  },
+  }
 ]
