@@ -157,5 +157,10 @@
     "key": "ctrl+shift+d",
     "command": "editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+\\",
+    "command": "terminal.focus",
+    "when": "!terminalFocus && terminalProcessSupported || terminalHasBeenCreated && terminalTabsFocus || terminalHasBeenCreated && !terminalFocus || terminalProcessSupported && terminalTabsFocus"
   }
 ]
