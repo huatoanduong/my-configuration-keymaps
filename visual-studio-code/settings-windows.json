@@ -245,5 +245,11 @@
   "[powershell]": {
     "editor.defaultFormatter": "ms-vscode.powershell"
   },
-  "debug.toolBarLocation": "commandCenter"
+  "debug.toolBarLocation": "commandCenter",
+  "workbench.colorTheme": "Monokai",
+  "svelte.enable-ts-plugin": true,
+  "docker.extension.enableComposeLanguageServer": false,
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  }
 }

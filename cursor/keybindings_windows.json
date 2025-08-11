@@ -182,5 +182,19 @@
     "key": "ctrl+shift+\\",
     "command": "terminal.focus",
     "when": "!terminalFocus && terminalProcessSupported || terminalHasBeenCreated && terminalTabsFocus || terminalHasBeenCreated && !terminalFocus || terminalProcessSupported && terminalTabsFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "composerMode.background"
+  },
+  {
+    "key": "ctrl+e ctrl+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
   }
 ]

@@ -236,38 +236,6 @@
   },
   "mssql.objectExplorer.groupBySchema": true,
   "mssql.connections": [
-    {
-      "connectionString": "Data Source=localhost;Initial Catalog=kassom;User Id=sa;Password=123456; Encrypt=true; Trust Server Certificate=true;",
-      "profileName": "kassom-localhost",
-      "encrypt": "Mandatory",
-      "trustServerCertificate": true,
-      "password": ""
-    },
-    {
-      "connectionString": "Microsoft.SqlTools|itemtype:Profile|server:localhost|user:sa|isConnectionString:true",
-      "profileName": "localhost",
-      "encrypt": "Mandatory",
-      "trustServerCertificate": true,
-      "server": "localhost",
-      "database": "",
-      "user": "sa",
-      "password": "",
-      "connectTimeout": 15,
-      "commandTimeout": 30,
-      "applicationName": "vscode-mssql",
-      "authenticationType": "SqlLogin",
-      "savePassword": true
-    },
-    {
-      "connectionString": "Microsoft.SqlTools|itemtype:Profile|server:tcp:kassom-prod.database.windows.net,1433|db:kassom-prod-db|user:kassomprodadmin|isConnectionString:true",
-      "profileName": "kassom-prod",
-      "database": "kassom-prod-db",
-      "user": "kassomprodadmin",
-      "server": "tcp:kassom-prod.database.windows.net,1433",
-      "authenticationType": "SqlLogin",
-      "savePassword": true,
-      "password": ""
-    }
   ],
   "mssql.autoDisableNonTSqlLanguageService": true,
   "python.defaultInterpreterPath": "",
@@ -281,5 +249,11 @@
   ],
   "workbench.colorTheme": "Monokai",
   "debug.toolBarLocation": "commandCenter",
-  "window.commandCenter": true
+  "window.commandCenter": true,
+  "cursor.windowSwitcher.sidebarHoverCollapsed": true,
+  "docker.extension.enableComposeLanguageServer": false,
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  },
+  "cursor.composer.shouldAllowCustomModes": true
 }
