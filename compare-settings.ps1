@@ -5,6 +5,48 @@
 Write-Host "Comparing VS Code settings files..." -ForegroundColor Blue
 Write-Host ""
 
+# Function to clean JSON content by removing comments
+function Remove-JsonComments {
+    param([string]$Content)
+    
+    # Split content into lines for safer processing
+    $lines = $Content -split "`n"
+    $cleanLines = @()
+    
+    foreach ($line in $lines) {
+        # Check if line contains only comments or is empty
+        $trimmedLine = $line.Trim()
+        
+        # Skip empty lines and lines that are only comments
+        if ($trimmedLine -eq '' -or $trimmedLine.StartsWith('//')) {
+            continue
+        }
+        
+        # Remove inline comments (// ...) but preserve the content before the comment
+        if ($line.Contains('//')) {
+            $commentIndex = $line.IndexOf('//')
+            $cleanLine = $line.Substring(0, $commentIndex).TrimEnd()
+            
+            # Only add the line if it still has content after removing the comment
+            if ($cleanLine -ne '') {
+                $cleanLines += $cleanLine
+            }
+        } else {
+            # Line has no comments, keep it as is
+            $cleanLines += $line
+        }
+    }
+    
+    # Join lines back together
+    $cleanContent = $cleanLines -join "`n"
+    
+    # Remove any trailing commas that might cause JSON parsing issues
+    $cleanContent = $cleanContent -replace ',\s*}', '}'
+    $cleanContent = $cleanContent -replace ',\s*]', ']'
+    
+    return $cleanContent
+}
+
 # Function to get distinct properties from Cursor file
 function Get-DistinctProperties {
     param(
@@ -13,12 +55,16 @@ function Get-DistinctProperties {
     )
     
     try {
-        # Read both JSON files
+        # Read both JSON files and clean them
         Write-Host "Reading Cursor settings file..." -ForegroundColor Gray
-        $cursorSettings = Get-Content $CursorFile -Raw | ConvertFrom-Json
+        $cursorRaw = Get-Content $CursorFile -Raw
+        $cursorClean = Remove-JsonComments -Content $cursorRaw
+        $cursorSettings = $cursorClean | ConvertFrom-Json
         
         Write-Host "Reading VS Code settings file..." -ForegroundColor Gray
-        $vscodeSettings = Get-Content $VSCodeFile -Raw | ConvertFrom-Json
+        $vscodeRaw = Get-Content $VSCodeFile -Raw
+        $vscodeClean = Remove-JsonComments -Content $vscodeRaw
+        $vscodeSettings = $vscodeClean | ConvertFrom-Json
         
         # Create a new object to store distinct properties
         $distinctSettings = @{}
