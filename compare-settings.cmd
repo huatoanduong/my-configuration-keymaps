@@ -7,4 +7,4 @@ powershell -ExecutionPolicy Bypass -File "compare-settings.ps1"
 
 echo.
 echo Batch script completed!
-pause
+@REM pause
