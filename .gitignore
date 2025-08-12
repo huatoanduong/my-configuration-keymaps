@@ -130,5 +130,5 @@ dist
 .pnp.*
 
 # custom ignore
-distinct-cursor-settings.json
-result-output.json
+!localignore/gitkeep
+localignore/
