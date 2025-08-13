@@ -130,5 +130,5 @@ dist
 .pnp.*
 
 # custom ignore
-!localignore/gitkeep
+!localignore/.gitkeep
 localignore/
