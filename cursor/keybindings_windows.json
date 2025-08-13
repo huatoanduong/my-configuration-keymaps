@@ -148,16 +148,16 @@
     "command": "-mssql.disconnect",
     "when": "editorTextFocus && editorLangId == 'sql'"
   },
-  {
-    "key": "ctrl+shift+d",
-    "command": "-workbench.view.debug",
-    "when": "viewContainer.workbench.view.debug.enabled"
-  },
-  {
-    "key": "ctrl+shift+d",
-    "command": "editor.action.deleteLines",
-    "when": "textInputFocus && !editorReadonly"
-  },
+  // {
+  //   "key": "ctrl+shift+d",
+  //   "command": "-workbench.view.debug",
+  //   "when": "viewContainer.workbench.view.debug.enabled"
+  // },
+  // {
+  //   "key": "ctrl+shift+d",
+  //   "command": "editor.action.deleteLines",
+  //   "when": "textInputFocus && !editorReadonly"
+  // },
   {
     "key": "ctrl+k ctrl+c",
     "command": "editor.action.addCommentLine",
