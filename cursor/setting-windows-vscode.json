@@ -252,8 +252,5 @@
   "window.commandCenter": true,
   "cursor.windowSwitcher.sidebarHoverCollapsed": true,
   "docker.extension.enableComposeLanguageServer": false,
-  "workbench.editorAssociations": {
-    "*.md": "vscode.markdown.preview.editor"
-  },
   "cursor.composer.shouldAllowCustomModes": true
 }
